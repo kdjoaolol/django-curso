@@ -3,3 +3,14 @@ depois com tudo baixado e instalado usamos:
 
 django-admin startproject nome_projeto . -> para inicializar o projeto
 python manage.py runserver -> para inicialiar o servidor
+
+arquivo url.py -> url's da sua pagina e que HttpResponse voce configurou
+criando uma aplicação nova
+python manage.py startapp nome_do_app
+
+criar uma urls.py na pasta do meu app com o urlpatterns para eu separar os dominios 
+
+nas views colocamos um render apontando para um arquivo html
+crio uma pasta chamada templates para adicionar os templates
+
+ir no arquivo settings na variavel INSTALLED_APPS e coloco os apps que eu criei
