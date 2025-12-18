@@ -1,0 +1,5 @@
+inicialmente baixamos todos as dependencias como python, django etc
+depois com tudo baixado e instalado usamos:
+
+django-admin startproject nome_projeto . -> para inicializar o projeto
+python manage.py runserver -> para inicialiar o servidor
