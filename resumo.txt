@@ -14,3 +14,9 @@ nas views colocamos um render apontando para um arquivo html
 crio uma pasta chamada templates para adicionar os templates
 
 ir no arquivo settings na variavel INSTALLED_APPS e coloco os apps que eu criei
+
+para garantir uma normalidade, dentro da pasta templates no app recipes eu adiciono uma pasta chamada recipes
+
+usando contexto, podemos passar coisas para dentro do template, pela tela de views
+
+com o terreno plano, agora vamos começar a fazer o html e css da pagina (aqui pode entrar IA)
