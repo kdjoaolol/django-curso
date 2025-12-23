@@ -20,3 +20,5 @@ para garantir uma normalidade, dentro da pasta templates no app recipes eu adici
 usando contexto, podemos passar coisas para dentro do template, pela tela de views
 
 com o terreno plano, agora vamos começar a fazer o html e css da pagina (aqui pode entrar IA)
+
+criar uma pasta chamada static na raiz do app ele ja entende que vao ter arquivos staticos la
