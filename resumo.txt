@@ -1,0 +1,29 @@
+inicialmente baixamos todos as dependencias como python, django etc
+depois com tudo baixado e instalado usamos:
+
+django-admin startproject nome_projeto . -> para inicializar o projeto
+python manage.py runserver -> para inicialiar o servidor
+
+arquivo url.py -> url's da sua pagina e que HttpResponse voce configurou
+criando uma aplicação nova
+python manage.py startapp nome_do_app
+
+criar uma urls.py na pasta do meu app com o urlpatterns para eu separar os dominios 
+
+nas views colocamos um render apontando para um arquivo html
+crio uma pasta chamada templates para adicionar os templates
+
+ir no arquivo settings na variavel INSTALLED_APPS e coloco os apps que eu criei
+
+para garantir uma normalidade, dentro da pasta templates no app recipes eu adiciono uma pasta chamada recipes
+
+usando contexto, podemos passar coisas para dentro do template, pela tela de views
+
+com o terreno plano, agora vamos começar a fazer o html e css da pagina (aqui pode entrar IA)
+
+criar uma pasta chamada static na raiz do app ele ja entende que vao ter arquivos staticos la
+
+python manage.py migrate
+python manage.py makemigrations
+
+python manage.py createsuperuser
